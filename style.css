@@ -105,7 +105,9 @@ width: 100%;
 
 /* Home Page */
 #hero {
-    background-image: url("img/hero1.png");
+    background-image: url(/img/CargoHero-removebg-preview.png);
+    background-color: #45CFDD;
+    background-repeat: no-repeat;
     height: 90vh;
     width: 100%;
     background-position: top 25% right 0;
