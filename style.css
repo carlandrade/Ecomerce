@@ -110,7 +110,7 @@ width: 100%;
 /* Home Page */
 #hero {
     background-image: url(img/CargoHero-removebg-preview.png);
-    background-color: #45CFDD;
+    background-color: #fff;
     background-repeat: no-repeat;
     height: 90vh;
     width: 100%;
@@ -149,8 +149,15 @@ font-size: 15px;
     margin-bottom: 10px;
 }
 
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 #feature .fe-box {
-    width: 180px;
+    width: 20%;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
@@ -168,6 +175,8 @@ font-size: 15px;
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color: #088178;
-    background-color: #fddde4;
+    color: #ff7d00;
+}
+
+#feature .fe-box:nth-child(2) h6 {
 }
